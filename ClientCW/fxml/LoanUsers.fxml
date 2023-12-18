@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoanUsersController">
+   <children>
+      <AnchorPane layoutY="83.0" prefHeight="317.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TableView fx:id="table" prefHeight="317.0" prefWidth="700.0">
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="133.3333181142807" text="ID займа" />
+                  <TableColumn fx:id="iduser" prefWidth="150.00001525878906" text="ID пользователя" />
+                  <TableColumn fx:id="idbook" prefWidth="139.99993896484375" text="ID книги" />
+                  <TableColumn fx:id="term" prefWidth="126.00003051757812" text="Срок" />
+                  <TableColumn fx:id="date" prefWidth="151.33331298828125" text="Дата выдачи" />
+               </columns>
+            </TableView>
+         </children></AnchorPane>
+      <Label layoutX="630.0" prefHeight="46.0" prefWidth="56.0" text="Admin" textFill="#756d6d">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" prefHeight="62.0" prefWidth="227.0" text="Library" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonbck" layoutX="629.0" layoutY="46.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="56.0" style="-fx-background-color: #ff6e97;" text="Назад" textFill="WHITE" />
+   </children>
+</AnchorPane>
