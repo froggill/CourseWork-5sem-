@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.MenuAdminController">
+   <children>
+      <AnchorPane layoutY="83.0" prefHeight="317.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <ImageView fx:id="onClclorder" fitHeight="80.0" fitWidth="80.0" layoutX="61.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/basketicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="onClckuser" fitHeight="62.0" fitWidth="79.0" layoutX="372.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/usersicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="onClckarchive" fitHeight="68.0" fitWidth="71.0" layoutX="370.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Archive-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="68.0" fitWidth="71.0" layoutX="71.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/book.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="butClclBook" layoutX="169.0" layoutY="44.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Книги" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="butClclOrdr" layoutX="169.0" layoutY="141.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Заказы" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="butClckUsr" layoutX="473.0" layoutY="44.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Пользователи" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="butClckArch" layoutX="473.0" layoutY="140.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Архив" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="onclckbck" layoutX="473.0" layoutY="232.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="62.0" fitWidth="68.0" layoutX="372.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="71.0" layoutX="70.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/chit.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="onclckcht" layoutX="169.0" layoutY="236.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="160.0" style="-fx-background-color: #F70C63;" text="Читальный зал" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="8.0" prefHeight="62.0" prefWidth="227.0" text="Library" textFill="WHITE" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="459.0">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="630.0" layoutY="8.0" prefHeight="46.0" prefWidth="56.0" text="Admin" textFill="#756d6d">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
